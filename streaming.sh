@@ -1,0 +1,1 @@
+ffmpeg -i a.mp4 -c:v libx264 -b:v 30000000 -f mpegts udp://localhost:1234
