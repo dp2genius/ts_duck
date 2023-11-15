@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsduck>
+
+  <PAT version="8" transport_stream_id="0x0012" network_PID="0x0010">
+    <service service_id="500" program_map_PID="5000" />
+  </PAT>
+
+  <PMT version="4" service_id="0x0456" PCR_PID="5000">
+    <CA_descriptor CA_system_id="0x0777" CA_PID="0x0251" />
+    <component elementary_PID="5001" stream_type="0x06">
+      <CA_descriptor CA_system_id="0x4444" CA_PID="0x0252" />
+      <ISO_639_language_descriptor>
+        <language code="fre" audio_type="0x45" />
+        <language code="deu" audio_type="0x78" />
+      </ISO_639_language_descriptor>
+    </component>
+  </PMT>
+
+</tsduck>
